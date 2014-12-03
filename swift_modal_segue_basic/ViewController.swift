@@ -20,6 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func segueAction(sender: AnyObject) {
+        
+        // Objective-C だと
+        // [self performSegueWithIdentifier:@"Segue1" sender:self];
+        performSegueWithIdentifier("Segue1",sender: nil)
+    }
 
+    @IBAction func segueAction2(sender: AnyObject) {
+        
+        performSegueWithIdentifier("Segue2",sender: nil)
+    }
+    
 }
 

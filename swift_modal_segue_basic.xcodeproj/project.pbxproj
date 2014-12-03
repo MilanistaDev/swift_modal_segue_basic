@@ -13,6 +13,7 @@
 		FD4659031A2E32A100CB9D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4659021A2E32A100CB9D77 /* Images.xcassets */; };
 		FD4659061A2E32A100CB9D77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4659041A2E32A100CB9D77 /* LaunchScreen.xib */; };
 		FD4659121A2E32A100CB9D77 /* swift_modal_segue_basicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4659111A2E32A100CB9D77 /* swift_modal_segue_basicTests.swift */; };
+		FD46591C1A2E392900CB9D77 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46591B1A2E392900CB9D77 /* SegueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FD46590B1A2E32A100CB9D77 /* swift_modal_segue_basicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_modal_segue_basicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4659101A2E32A100CB9D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4659111A2E32A100CB9D77 /* swift_modal_segue_basicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_modal_segue_basicTests.swift; sourceTree = "<group>"; };
+		FD46591B1A2E392900CB9D77 /* SegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FD4658FB1A2E32A100CB9D77 /* AppDelegate.swift */,
 				FD4658FD1A2E32A100CB9D77 /* ViewController.swift */,
 				FD4658FF1A2E32A100CB9D77 /* Main.storyboard */,
+				FD46591B1A2E392900CB9D77 /* SegueViewController.swift */,
 				FD4659021A2E32A100CB9D77 /* Images.xcassets */,
 				FD4659041A2E32A100CB9D77 /* LaunchScreen.xib */,
 				FD4658F91A2E32A100CB9D77 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD46591C1A2E392900CB9D77 /* SegueViewController.swift in Sources */,
 				FD4658FE1A2E32A100CB9D77 /* ViewController.swift in Sources */,
 				FD4658FC1A2E32A100CB9D77 /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
